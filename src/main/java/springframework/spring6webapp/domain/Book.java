@@ -30,6 +30,14 @@ public class Book {
         return publisher;
     }
 
+    public Set<Author> getAuthors() {
+        return authors;
+    }
+
+    public void setAuthors(Set<Author> authors) {
+        this.authors = authors;
+    }
+
     public void setPublisher(Publisher publisher) {
         this.publisher = publisher;
     }
