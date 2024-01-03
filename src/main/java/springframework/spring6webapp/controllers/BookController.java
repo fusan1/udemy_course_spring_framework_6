@@ -18,6 +18,6 @@ public class BookController {
     public String getBook(Model model) {
         model.addAttribute("books", bookService.findAll());
 
-        return "book";
+        return "books";
     }
 }
